@@ -10,6 +10,10 @@ import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { HeaderComponent } from './Shared/Components/header/header.component';
 import { FooterComponent } from './Shared/Components/footer/footer.component';
 import { SidebarComponent } from './Shared/Components/sidebar/sidebar.component';
+import { ErrorPageComponent } from './Shared/Components/error-page/error-page.component';
+import { ProfileComponent } from './Components/Settings/profile/profile.component';
+import { ChartJsComponent } from './Components/Charts/chart-js/chart-js.component';
+import { FlotComponent } from './Components/Charts/flot/flot.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { SidebarComponent } from './Shared/Components/sidebar/sidebar.component'
     DashboardComponent,
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    ErrorPageComponent,
+    ProfileComponent,
+    ChartJsComponent,
+    FlotComponent
   ],
   imports: [
     BrowserModule,
